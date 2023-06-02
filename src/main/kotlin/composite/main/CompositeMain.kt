@@ -101,14 +101,14 @@ class CompositeMain {
 
     companion object {
         /*@JvmStatic
-        fun main(args: Array<String>) {
-            val main = CompositeMain()
-            main.buildProducts()
-            main.orderSimpleProducts()
-            main.orderHomePC()
-            main.orderGammerPC()
-            main.orderCombo()
-            main.orderBig()
+        fun mediator.mediat.main(args: Array<String>) {
+            val mediator.mediat.main = CompositeMain()
+            mediator.mediat.main.buildProducts()
+            mediator.mediat.main.orderSimpleProducts()
+            mediator.mediat.main.orderHomePC()
+            mediator.mediat.main.orderGammerPC()
+            mediator.mediat.main.orderCombo()
+            mediator.mediat.main.orderBig()
         }*/
 
         @JvmStatic
@@ -116,10 +116,10 @@ class CompositeMain {
             val main = CompositeMain()
             main.buildProducts()
             main.orderSimpleProducts()
-// main.orderHomePC();
-// main.orderGammerPC();
-// main.orderCombo();
-// main.orderBig();
+// mediator.mediat.main.orderHomePC();
+// mediator.mediat.main.orderGammerPC();
+// mediator.mediat.main.orderCombo();
+// mediator.mediat.main.orderBig();
         }
     }
 }
